@@ -664,6 +664,7 @@ ul li {
     margin-top: 0.5rem;  
   }
   .dots{
-    margin-top: 15px;
+    position: static;
+    margin-top: 35px;
   }
 }
