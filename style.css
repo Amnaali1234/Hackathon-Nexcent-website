@@ -461,7 +461,9 @@ ul li {
     width: 48%;
   }
 }
-
+.dots{
+  display: none;
+}
 /*======Tablet Responsive=======*/
 @media (max-width: 768px) {
   /* NAVBAR */
@@ -577,6 +579,9 @@ ul li {
     gap: 2rem;
   }
 }
+.dots{
+  display: none;
+}
 /*========Mobile Responsive================*/
 @media (max-width: 600px) {
   #menu-btn {
@@ -664,7 +669,7 @@ ul li {
     margin-top: 0.5rem;  
   }
   .dots{
-   
-    margin-top: 5px;
+   display: none;
+    
   }
 }
